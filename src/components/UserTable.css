@@ -1,0 +1,37 @@
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userTable th,
+.userTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.userTable tr:hover {
+  background: #c2e4f7;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.02);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.viewBtn {
+  padding: 6px 12px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.viewBtn:hover {
+  background: #357abf;
+}
